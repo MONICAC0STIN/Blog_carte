@@ -39,29 +39,32 @@ body{
     padding: 0 0 20px 0;
     border-bottom: 1px solid rgb(228, 223, 223);
 }
-
-.login {
+.msj h1{
     text-align: center;
-    color: black;
+    color: white;
+    position: absolute;
+    left:15%;
+    right: 15%;
+    font-size: 35px;
+    margin-bottom: 25px;
 }
 
-.info {
-    text-align: center;
-    color:white;
-    text-shadow: #0e0f55;
-}
+
 @media screen and (max-width: 300px) {
     .center {
         position: absolute;
         background: #c7d4da;
         border-radius: 10px;
-        bottom: 80%;
+        top: 40%;
+        left: 50%;
         transform: translateX(-50%);
     }
+   
+    
+    
 }
 
-
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 301px) {
     .center {
         position: absolute;
         top: 40%;
@@ -69,10 +72,10 @@ body{
         transform: translateX(-50%);
         background: #c7d4da;
         border-radius: 10px;
-  
+        
+    }
 }
-}
-
+    
 
 .center form{
     padding: 0 10px;
@@ -265,12 +268,18 @@ h1{
     text-align: center;
     text-shadow: #524ea5f8;
 }
-h1, h2{
+h1, {
     color: black;
     margin-bottom: 10px;
     text-align: center;
     margin-top: 10px;
    
+}
+h2{
+    color: black;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 10px;
 }
 
 h3{
@@ -355,12 +364,15 @@ margin-top: 15px;
 }
 
 .login-p {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #d5d5e6;
-    text-indent: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 30%;
+
 }
+
 
 footer{
     text-align: center;
@@ -370,7 +382,7 @@ footer{
 .quote {
     border: #df92dd solid ;
     background-color: #c7d4da;
-    width: fit-content;
+    width: auto;
 }
 .quote-p {
     color: #1d0b4e;
@@ -379,6 +391,7 @@ footer{
     font-size: 24px;
     font-weight: italic;
     margin-bottom: 15px;
+    width: auto;
 }
 
 .row{
@@ -399,6 +412,7 @@ flex-wrap:wrap;
     
     }
 }
+
 .to-do> ul {
     list-style:none;
 }
@@ -411,18 +425,21 @@ flex-wrap:wrap;
     background:#cf88da;
     border: #1e0522 solid 2px;
     box-shadow: #df92dd;
-    width:fit-content ;
+    min-width: fit-content;
 }
+
 iframe {
     min-width: fit-content;
     max-width: 100%;
-    height: auto;
+    height: 250px;
+    max-height: auto;
+
 }
 
 .fa-instagram {
     background-color: rgb(117, 19, 117);
     color: #b3aec2;
-    margin-left: 35%;
+    margin: left 0;;
 }
 .fa-facebook {
     background-color: rgb(32, 47, 187);
