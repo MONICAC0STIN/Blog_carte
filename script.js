@@ -13,5 +13,4 @@ else {
 
 }
 
-window.onscroll = function() {scrollFunction()};
 

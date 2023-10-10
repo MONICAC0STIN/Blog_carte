@@ -110,16 +110,6 @@ form .txt-field{
     transition: .5s;
 
 }
-.txt-f label{
-    position: absolute;
-    top:72%;
-    left: 2px;
-    color: rgb(0, 0, 0);
-    transform: translateY(-50%);
-    font-size: 16px;
-    pointer-events: none;
-    transition: .5s;
-}
 
 .txt-f span::before {
     content: '';
@@ -171,7 +161,7 @@ input[type="submit"] {
     border: 1px solid;
     background: #05056b;
     border:#010116 ;
-    border-radius: 25px;
+    border-radius: 20px;
     color: white;
     font-weight: 700;
     cursor: pointer;
@@ -184,27 +174,17 @@ input[type="submit"]:hover {
     transition: .5s;
 
 }
-#reset {
-    width:40%;
-    height: 30px;
-    border: 1px solid;
-    background: #a0a0af;
-    color: #021111;
-    font-weight: 700;
-    cursor: pointer;
-    outline: none;transform: translateY(10%)
-    
-}
 
+/* Sign up button */
 .signup_link {
     margin:30px 0;
     text-align: center;
     font-size: 16px;
-    color:#e9e8f0;
+    color:#120d35;
 
 }
 .signup_link a {
-    color: #f1fcfc;
+    color: #410f92;
     text-decoration: none;
 }
 
@@ -372,7 +352,6 @@ margin-top: 15px;
     margin-left: 30%;
 
 }
-
 
 footer{
     text-align: center;
