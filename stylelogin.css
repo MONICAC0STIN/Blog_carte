@@ -248,7 +248,7 @@ h1{
     text-align: center;
     text-shadow: #524ea5f8;
 }
-h1, {
+h1 {
     color: black;
     margin-bottom: 10px;
     text-align: center;
@@ -448,3 +448,114 @@ position: sticky;
 top: 20%;
 right: 0;
 }
+/* Calendar view-16.11 */
+.dycalendar {
+    height:100%;
+    width:100%;
+    background:#d4bdd4;
+    border-radius:20px;
+    padding-bottom:25px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+     rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, 
+     rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+    
+    .dycalendar table{
+    margin:30px 20px 10px 10px;        
+    }
+    
+    .dycalendar table tr:first-child td{
+     color:rgb(107, 51, 100);
+    }
+    
+    .dycalendar table td{
+    height:30px;   
+    width:35px;
+    border-radius:5px;    
+    font-size:20px;
+    cursor:pointer;
+    position:relative;
+    top:10px;
+    font-family: 'poppins', sans-serif;
+    }
+    
+    
+    .dycalendar table td:hover{
+    background:rgba(192,192,192,0.3);
+    transition:all .2s ease-out;
+    }
+    
+    table{
+        border-spacing: 15px;
+    }
+    .dycalendar-month-container{font-size: 30px;}
+    .dycalendar-prev-next-btn.next-btn, .prev-btn{
+        padding: 10px 25px;
+        background:none;
+        color:black;
+        border-radius:10px;
+        margin-top:-10px;
+        margin-left:10px;
+    }
+    
+    .dycalendar .next-btn{
+     margin-right:10px;        
+    }
+    
+    .dycalendar-prev-next-btn.next-btn:hover{
+        background:#F5F5F5;
+    }
+    .dycalendar-prev-next-btn.prev-btn:hover{
+        background:#F5F5F5;
+    }
+    
+    .dycalendar .dycalendar-today-date{
+    background:none;      
+    background:#df92dd;
+    border-radius:10px;
+    color:white;
+    }
+    
+    .dycalendar .dycalendar-today-date:hover{
+    background:#df92d5;
+    }
+    
+    .dycalendar-header{
+    position:relative;
+    top:25px;
+    font-family: 'poppins', sans-serif;
+    }
+    
+    .toggle-btn{
+    padding:15px;   
+    border-radius:30px;
+    background:white;
+    position:relative;
+    top:-80px;
+    left:440px;
+    width:80px;
+    cursor:pointer;
+    border:2px solid grey;
+    }
+    
+    .circle{
+    height:50px;  
+    width:50px;
+    background:white;
+    border-radius:100%;
+    position:absolute;
+    top:-10px;
+    left:-5px;
+    transition:all .2s ease-in-out;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:2px solid grey;
+    }
+    
+    .circle:before{
+    content:'\f186';
+    font-family:fontAwesome;
+    font-size:30px;
+    color:black;
+    }
